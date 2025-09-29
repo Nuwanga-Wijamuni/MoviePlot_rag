@@ -1,5 +1,10 @@
-pandas
+fastapi
+uvicorn
+pydantic
+faiss-cpu
 sentence-transformers
-python-dotenv
-chromadb
+torch
+transformers
+scikit-learn
 numpy
+pickle-mixin
