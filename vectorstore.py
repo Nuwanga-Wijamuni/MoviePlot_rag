@@ -36,7 +36,7 @@ def process_and_embed_data(csv_path, index_file, metadata_file):
         df.dropna(subset=['Plot'], inplace=True)
 
         # Limit the rows (optional)
-        df = df.head(220)
+        df = df.head(500)
         print(f"Successfully loaded and reduced to {len(df)} movies.")
 
     except FileNotFoundError:
