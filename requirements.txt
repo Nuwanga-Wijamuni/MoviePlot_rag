@@ -1,6 +1,3 @@
-fastapi
-uvicorn
-pydantic
 faiss-cpu
 sentence-transformers
 torch
@@ -8,3 +5,8 @@ transformers
 scikit-learn
 numpy
 pickle-mixin
+groq
+pandas
+rank-bm25
+python-dotenv 
+tqdm
